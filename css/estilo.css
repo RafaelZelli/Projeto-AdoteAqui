@@ -12,7 +12,7 @@ body{
     justify-content: center;
 }
 
-#cabecalho{
+#menu{
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -23,6 +23,7 @@ body{
     display: flex;
     font-family: Cookies;
     font-size: 25px;
+
 }
 
 .logo{
@@ -30,8 +31,9 @@ body{
     border-bottom: 2px solid black;
     border-left: 2px solid black;
     width: 100%;
+    min-width: 300px;
     font-family: Cookies;
-    font-size: 35px;
+    font-size: 30px;
     background-color: #DAA520;
     display: flex;
     align-items: center;  
@@ -39,13 +41,13 @@ body{
 }
 
 .logo:hover{
-    font-size: 40px;
+    font-size: 35px;
     cursor: pointer;
     transition: font-size 0.5s;
 }
 
-.logo p{    
-    padding-left: 50px;
+.logo h1{    
+    padding-left: 6%;
 }
 
 .nav{
@@ -90,17 +92,21 @@ body{
 .conteudo-pet{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    padding-left: 2%;
-    width: 900px;
+    align-items: center;    
+    width: 85%;
+    padding-left: 12%;
+    padding-right: 2%;
+        
 }
+
 
 .imgpet{
     width: 200px;
     height: 180px;
-    margin: 10px 20px;
+    margin: 10px 10px;
     border: 1px solid black;
-    border-radius: 10px;  
+    border-radius: 10px; 
+
 }
 
 
@@ -132,7 +138,7 @@ body{
 
 
 
-/* Media Query 700px*/
+/* ---------------------- Media Query ------------------*/
 @media (max-width: 568px) {
 
     body{
@@ -154,7 +160,7 @@ body{
         width: 100%;
     }
 
-    #cabecalho{
+    #menu{
         height: 300px;
         width: 300px;
         border: none;
@@ -190,6 +196,7 @@ body{
         display: flex;
         flex-direction: column;
         width: 300px;
+        padding-left: 2%;
     }
 
     .imgpet{
