@@ -23,6 +23,7 @@ body{
     display: flex;
     font-family: Cookies;
     font-size: 25px;
+    width: 40%;
 
 }
 
@@ -30,8 +31,8 @@ body{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
-    width: 100%;
-    min-width: 300px;
+    width: 60%;
+    min-width: 230px;
     font-family: Cookies;
     font-size: 30px;
     background-color: #DAA520;
